@@ -1,0 +1,14 @@
+tensorflow
+tensorflow-io
+opencv-contrib-python
+pandas
+matplotlib
+seaborn
+numpy
+scikit-learn
+jupyter
+requests
+-f https://download.pytorch.org/whl/cpu
+torch
+-f https://download.pytorch.org/whl/cpu
+torchvision

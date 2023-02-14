@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  pythonlab:
+    build: ./Docker
+    container_name: meli_lab
+    volumes:
+      - './workspace:/workspace'
+      - '/tmp/.X11-unix:/tmp/.X11-unix'
+    ports:
+      - '8889:8889'
+    environment:
+      - 'DISPLAY=$DISPLAY'
