@@ -1,3 +1,6 @@
 workspace/data
 workspace/logs
 workspace/tests/yolov3/yolo-coco
+workspace/tests/yolov3/yolo-coco/coco.names
+workspace/tests/yolov3/yolo-coco/yolov3.weights
+workspace/tests/yolov3/yolo-coco/yolov3.cfg
