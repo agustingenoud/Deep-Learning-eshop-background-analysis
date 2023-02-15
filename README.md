@@ -1,6 +1,6 @@
-
+## Computer vision & Deep Learning
 ---
-
+Dockerized python environment for e-shop image analysis. Computer vision for background detection and processing. CNN training for background recognition.
 
 #### To start environment please do:
 
