@@ -25,5 +25,6 @@ RUN pip cache remove purge
 EXPOSE 8889
 
 RUN mkdir -p /workspace
+
 WORKDIR /workspace
 CMD jupyter notebook --ip=0.0.0.0 --port=8889 --no-browser --allow-root --NotebookApp.token=
